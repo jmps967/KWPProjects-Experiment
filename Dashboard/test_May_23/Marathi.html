@@ -1,0 +1,60 @@
+<html>
+<head>
+<title> Marathi</title>
+
+
+<style>
+  
+  form.a {
+    visibility: hidden;
+  }
+  </style>
+
+</head>
+<body>
+
+
+ <form id="apitest_form_2" name="apitest_form_2" class="a" method="POST" action="https://smartpanel.myqmob.com/reactor-webapp/pt/lumi_say/pn/lumicompass/api/get_data">
+
+  <table>
+ 
+  <thead>
+ 
+    <th>Parameter</th>
+ 
+    <th>Value</th>
+ 
+  </thead>
+ <br>
+ <table>
+ 
+  <tbody>
+ 
+   <tr><td>user_name:</td><td><input type="text" name="user_name" value="priya.varadkar@imrbint.com"/></td></tr>
+ 
+   <tr><td>password:</td><td><input type="password" name="password" value="Panel@2022"/></td></tr>
+ 
+   <tr><td>survey_id:</td><td><input type="text" name="survey_id" value="25264"/></td></tr>
+ 
+   <tr><td>report_id:</td><td><input type="text" name="report_id" value="38534"/></td></tr> 
+ 
+ </tbody>
+ 
+ 
+  </table>
+ 
+  <br/>
+ 
+  
+  <input type="submit" name="s" value="Test1" class="apitest_button"/>
+ 
+  </form>
+
+
+ <script>
+document.getElementsByClassName("apitest_button")[0].click(); 
+   </script>
+
+</body>
+
+</html>
